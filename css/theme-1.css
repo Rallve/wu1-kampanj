@@ -16,6 +16,10 @@ footer a {
     color: var(--color-light);
 }
 
+#landpage {
+    text-align: center;
+}
+
 h1 {
     display: inline-block;
     background-color: black;
@@ -31,7 +35,10 @@ h1 {
 }
 
 #title {
+    left: 50%;
+    right: 50%;
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 h2, h3 {
@@ -96,4 +103,27 @@ p {
         flex-direction: column-reverse;
         row-gap: 1rem;
     }
+}
+
+.black {
+    background-color: rgb(39, 39, 39);
+    color: var(--color-light);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.full-bleed {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.override {
+    margin-bottom: 0rem;
+}
+
+.backg {
+    background-color: #eda2c07c;
+    padding: 1rem;
 }
