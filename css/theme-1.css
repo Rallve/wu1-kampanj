@@ -106,7 +106,7 @@ p {
 }
 
 .black {
-    background-color: rgb(39, 39, 39);
+    background-color: var(--color-primary);
     color: var(--color-light);
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -126,4 +126,9 @@ p {
 .backg {
     background-color: #eda2c07c;
     padding: 1rem;
+}
+
+#logo {
+    height: 45px;
+    width: 50px;
 }

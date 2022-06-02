@@ -21,8 +21,8 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1rem;
-
+    padding: 0.5rem;
+    z-index: 9999;
     font-size: 1.333rem;
 }
 .navbar__collapse-show {
@@ -86,6 +86,7 @@ a:hover {
 /* container */
 
 body {
+    overflow-x: hidden;
     scroll-behavior: smooth;
 
     display: flex;
