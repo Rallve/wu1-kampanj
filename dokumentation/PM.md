@@ -18,6 +18,10 @@ Nu när jag hade färger, fonter och en logga började jag att koda webbsidan. J
 
 Slutligen lade jag till resten av kampanjtexten. Nu var sidan ganska tråkig, så jag lade till en till bild samt ändrade bakgrundsfärgen på delar av texten och lade till en bleed div.
 
+När min webbsida nu var klar validerade jag den och fick två errors som hade med width och height på en bild att göra. Jag var helt enkelt tvungen att ta bort "px" och sedan fanns det inga fler errors.
+
+Jag testade även sidan på två olika webbläsare: Chrome och Microsoft Edge. Sidan funkade bra på båda webbläsare. När jag dock testade sidan på en mobil blev top baren och heron lite konstig då de inte sträckte sig hela vägen från vänster kant till höger.
+
 ## Positiva erfarenheter
 
 Det som gick bra var att komma på färger och fonter för webbsidan. Det blev mycket lättare med hjälp av sidorna Coolors och Fontjoy. Att ta fram en logga var också lättare med Brandmark men jag var tvungen att scrolla ett tag innan jag hittade någon som jag tyckte passade någorlunda. I framtiden kommer jag antagligen att fortsätta använda dessa webbsidor för att underlätta att ta fram färger, fonter och loggor.
